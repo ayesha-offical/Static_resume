@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x:hidden;
+    font-family:"Cascadia Code font"
+}
+.main {
+    background-color: rgba(22, 54, 56, 0.63);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+
+}
+.textpage {
+    background-color: white;
+    padding: 50px;
+    height: 100%;
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+  color: rgb(30, 29, 29);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.heading{
+        display: flex;
+        justify-content:space-between;
+        align-items: end;
+        gap: 10px;
+        text-align: end;
+        width: 100%; 
+        padding: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgba(95, 158, 160, 0.708);
+        color:white;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap : 10px
+}
+.image{
+    width:130px;
+    height: 130px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 7px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    display:flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction:start;
+}
+.all{
+    font-size: 15px;
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+  
+}
+.same{
+    display:flex;
+    flex-direction:column;
+    gap:9px;
+    padding-top:15px;
+}
+.line{
+    background-color:gray;
+    width:100%;
+    height: 1px;
+}
+
+a{
+    color: rgb(34, 81, 85);
+}
+h2{
+    color: rgb(27, 175, 189);
+}
+p{
+    line-height:20px;
+    padding-top:10px;
+}
+@media (max-width: 768px){
+    .textpage { width: 100%; padding: 20px;}
+    .heading {flex-direction: column; align-items: center; text-align: center;}
+    .heading div {margin-bottom: 10px;}
+    .part1 h1, .part1 h3, .part1 h5 {text-align: center;}}
+    .image {width: 100px; height: 100px;} 
+    @media(max-width: 480px)
+    { .textpag{padding: 10px; } .heading {padding:20px; } .image {width: 80px; height: 80px;}}
